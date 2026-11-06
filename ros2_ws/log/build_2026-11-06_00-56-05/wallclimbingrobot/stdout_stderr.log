@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /home/supreyopretom/ros2_ws/ros2_ws/build/wallclimbingrobot/CMakeCache.txt is different than the directory /home/pretom/ros2_ws/build/wallclimbingrobot where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/pretom/ros2_ws/src/wallclimbingrobot" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

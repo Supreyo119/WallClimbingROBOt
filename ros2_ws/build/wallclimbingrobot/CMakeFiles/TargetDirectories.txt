@@ -1,0 +1,9 @@
+/home/pretom/ros2_ws/build/wallclimbingrobot/CMakeFiles/uninstall.dir
+/home/pretom/ros2_ws/build/wallclimbingrobot/CMakeFiles/wallclimbingrobot_uninstall.dir
+/home/pretom/ros2_ws/build/wallclimbingrobot/CMakeFiles/test.dir
+/home/pretom/ros2_ws/build/wallclimbingrobot/CMakeFiles/edit_cache.dir
+/home/pretom/ros2_ws/build/wallclimbingrobot/CMakeFiles/rebuild_cache.dir
+/home/pretom/ros2_ws/build/wallclimbingrobot/CMakeFiles/list_install_components.dir
+/home/pretom/ros2_ws/build/wallclimbingrobot/CMakeFiles/install.dir
+/home/pretom/ros2_ws/build/wallclimbingrobot/CMakeFiles/install/local.dir
+/home/pretom/ros2_ws/build/wallclimbingrobot/CMakeFiles/install/strip.dir

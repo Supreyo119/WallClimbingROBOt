@@ -1,0 +1,121 @@
+[0.121s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--base-paths', 'ros2_ws/src', '--packages-select', 'wallclimbingrobot']
+[0.121s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['ros2_ws/src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['wallclimbingrobot'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c8558f7d910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c8558f7d5b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c8558f7d5b0>>)
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.167s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/supreyopretom/ros2_ws/ros2_ws/src'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wallclimbingrobot) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wallclimbingrobot) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wallclimbingrobot) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wallclimbingrobot) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wallclimbingrobot) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wallclimbingrobot) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wallclimbingrobot) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wallclimbingrobot) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/wallclimbingrobot) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/wallclimbingrobot' with type 'ros.ament_cmake' and name 'wallclimbingrobot'
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/supreyopretom/map_ws/install
+[0.256s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 347 installed packages in /opt/ros/jazzy
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'wallclimbingrobot' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'wallclimbingrobot' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'wallclimbingrobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'wallclimbingrobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'wallclimbingrobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'wallclimbingrobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'wallclimbingrobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'wallclimbingrobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'wallclimbingrobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] DEBUG:colcon.colcon_core.verb:Building package 'wallclimbingrobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/supreyopretom/ros2_ws/build/wallclimbingrobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/supreyopretom/ros2_ws/install/wallclimbingrobot', 'merge_install': False, 'path': '/home/supreyopretom/ros2_ws/ros2_ws/src/wallclimbingrobot', 'symlink_install': False, 'test_result_base': None}
+[0.315s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/supreyopretom/ros2_ws/ros2_ws/src/wallclimbingrobot' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/supreyopretom/ros2_ws/ros2_ws/src/wallclimbingrobot'
+[0.318s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/supreyopretom/ros2_ws/build/wallclimbingrobot -- -j8 -l8
+[16.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/supreyopretom/ros2_ws/build/wallclimbingrobot -- -j8 -l8
+[16.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/supreyopretom/ros2_ws/build/wallclimbingrobot
+[16.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wallclimbingrobot)
+[16.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/supreyopretom/ros2_ws/build/wallclimbingrobot
+[16.820s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot' for CMake module files
+[16.822s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot' for CMake config files
+[16.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('wallclimbingrobot', 'cmake_prefix_path')
+[16.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/hook/cmake_prefix_path.ps1'
+[16.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/hook/cmake_prefix_path.dsv'
+[16.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/hook/cmake_prefix_path.sh'
+[16.829s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/lib'
+[16.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('wallclimbingrobot', 'ld_library_path_lib')
+[16.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/hook/ld_library_path_lib.ps1'
+[16.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/hook/ld_library_path_lib.dsv'
+[16.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/hook/ld_library_path_lib.sh'
+[16.833s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/bin'
+[16.833s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/lib/pkgconfig/wallclimbingrobot.pc'
+[16.833s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/lib/python3.12/site-packages'
+[16.834s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/bin'
+[16.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.ps1'
+[16.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.dsv'
+[16.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.sh'
+[16.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.bash'
+[16.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.zsh'
+[16.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/colcon-core/packages/wallclimbingrobot)
+[16.845s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wallclimbingrobot)
+[16.846s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot' for CMake module files
+[16.847s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot' for CMake config files
+[16.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('wallclimbingrobot', 'cmake_prefix_path')
+[16.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/hook/cmake_prefix_path.ps1'
+[16.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/hook/cmake_prefix_path.dsv'
+[16.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/hook/cmake_prefix_path.sh'
+[16.851s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/lib'
+[16.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('wallclimbingrobot', 'ld_library_path_lib')
+[16.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/hook/ld_library_path_lib.ps1'
+[16.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/hook/ld_library_path_lib.dsv'
+[16.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/hook/ld_library_path_lib.sh'
+[16.855s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/bin'
+[16.855s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/lib/pkgconfig/wallclimbingrobot.pc'
+[16.855s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/lib/python3.12/site-packages'
+[16.856s] Level 1:colcon.colcon_core.environment:checking '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/bin'
+[16.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.ps1'
+[16.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.dsv'
+[16.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.sh'
+[16.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.bash'
+[16.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.zsh'
+[16.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/colcon-core/packages/wallclimbingrobot)
+[16.864s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.865s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.957s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.957s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.957s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.985s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.986s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/supreyopretom/ros2_ws/install/local_setup.ps1'
+[16.988s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/supreyopretom/ros2_ws/install/_local_setup_util_ps1.py'
+[16.989s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/supreyopretom/ros2_ws/install/setup.ps1'
+[16.991s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/supreyopretom/ros2_ws/install/local_setup.sh'
+[16.991s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/supreyopretom/ros2_ws/install/_local_setup_util_sh.py'
+[16.993s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/supreyopretom/ros2_ws/install/setup.sh'
+[16.995s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/supreyopretom/ros2_ws/install/local_setup.bash'
+[16.995s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/supreyopretom/ros2_ws/install/setup.bash'
+[16.997s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/supreyopretom/ros2_ws/install/local_setup.zsh'
+[16.997s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/supreyopretom/ros2_ws/install/setup.zsh'

@@ -1,0 +1,4 @@
+source;share/wallclimbingrobot/local_setup.bash
+source;share/wallclimbingrobot/local_setup.dsv
+source;share/wallclimbingrobot/local_setup.sh
+source;share/wallclimbingrobot/local_setup.zsh

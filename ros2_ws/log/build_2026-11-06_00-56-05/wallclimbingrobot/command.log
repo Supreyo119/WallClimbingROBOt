@@ -1,0 +1,2 @@
+Invoking command in '/home/supreyopretom/ros2_ws/ros2_ws/build/wallclimbingrobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/supreyopretom/ros2_ws/ros2_ws/build/wallclimbingrobot -- -j8 -l8
+Invoked command in '/home/supreyopretom/ros2_ws/ros2_ws/build/wallclimbingrobot' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/supreyopretom/ros2_ws/ros2_ws/build/wallclimbingrobot -- -j8 -l8

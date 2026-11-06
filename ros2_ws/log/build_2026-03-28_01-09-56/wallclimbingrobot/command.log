@@ -1,0 +1,6 @@
+Invoking command in '/home/pretom/ros2_ws/build/wallclimbingrobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pretom/ros2_ws/src/wallclimbingrobot -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pretom/ros2_ws/install/wallclimbingrobot
+Invoked command in '/home/pretom/ros2_ws/build/wallclimbingrobot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pretom/ros2_ws/src/wallclimbingrobot -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pretom/ros2_ws/install/wallclimbingrobot
+Invoking command in '/home/pretom/ros2_ws/build/wallclimbingrobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pretom/ros2_ws/build/wallclimbingrobot -- -j4 -l4
+Invoked command in '/home/pretom/ros2_ws/build/wallclimbingrobot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pretom/ros2_ws/build/wallclimbingrobot -- -j4 -l4
+Invoking command in '/home/pretom/ros2_ws/build/wallclimbingrobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pretom/ros2_ws/build/wallclimbingrobot
+Invoked command in '/home/pretom/ros2_ws/build/wallclimbingrobot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pretom/ros2_ws/build/wallclimbingrobot

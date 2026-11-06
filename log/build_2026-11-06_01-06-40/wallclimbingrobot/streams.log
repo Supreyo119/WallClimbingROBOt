@@ -1,0 +1,290 @@
+[0.045s] Invoking command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/supreyopretom/ros2_ws/build/wallclimbingrobot -- -j8 -l8
+[0.137s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.859s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.972s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.014s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.062s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.122s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.394s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.400s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.640s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.929s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[2.735s] -- Found gz_sim_vendor: 0.0.10 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)
+[2.801s] -- Looking for gz-sim8 -- found version 8.11.0
+[2.823s] -- Searching for dependencies of gz-sim8
+[2.825s] -- Looking for sdformat14 -- found version 14.9.0
+[2.826s] -- Searching for dependencies of sdformat14
+[2.849s] -- Checking for module 'tinyxml2'
+[2.920s] --   Found tinyxml2, version 10.0.0
+[3.067s] -- Looking for gz-math7 -- found version 7.5.2
+[3.068s] -- Searching for dependencies of gz-math7
+[3.069s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.070s] -- Searching for dependencies of gz-utils2
+[3.076s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.077s] -- Searching for dependencies of gz-utils2
+[3.077s] -- Searching for <gz-utils2> component [cli]
+[3.079s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[3.080s] -- Searching for dependencies of gz-utils2-cli
+[3.089s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.090s] -- Searching for dependencies of gz-plugin2
+[3.092s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.096s] -- Searching for <gz-plugin2> component [loader]
+[3.096s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[3.097s] -- Searching for dependencies of gz-plugin2-loader
+[3.100s] -- Searching for <gz-plugin2> component [register]
+[3.103s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[3.104s] -- Searching for dependencies of gz-plugin2-register
+[3.107s] -- Looking for gz-transport13 -- found version 13.5.0
+[3.108s] -- Searching for dependencies of gz-transport13
+[3.241s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.256s] -- Checking for module 'libzmq >= 4'
+[3.321s] --   Found libzmq, version 4.3.5
+[3.470s] -- Checking for module 'uuid'
+[3.529s] --   Found uuid, version 2.39.3
+[3.663s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.664s] -- Looking for gz-msgs10 -- found version 10.3.2
+[3.665s] -- Searching for dependencies of gz-msgs10
+[3.712s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.712s] -- Looking for gz-math7 -- found version 7.5.2
+[3.739s] -- Searching for <gz-transport13> component [log]
+[3.741s] -- Looking for gz-transport13-log -- found version 13.5.0
+[3.741s] -- Searching for dependencies of gz-transport13-log
+[3.744s] -- Searching for <gz-transport13> component [parameters]
+[3.745s] -- Looking for gz-transport13-parameters -- found version 13.5.0
+[3.746s] -- Searching for dependencies of gz-transport13-parameters
+[3.750s] -- Looking for gz-msgs10 -- found version 10.3.2
+[3.752s] -- Looking for gz-common5 -- found version 5.8.0
+[3.752s] -- Searching for dependencies of gz-common5
+[3.754s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.754s] -- Looking for dlfcn.h - found
+[3.755s] -- Looking for libdl - found
+[3.778s] -- Searching for <gz-common5> component [av]
+[3.779s] -- Looking for gz-common5-av -- found version 5.8.0
+[3.780s] -- Searching for dependencies of gz-common5-av
+[3.796s] -- Checking for module 'libswscale'
+[3.849s] --   Found libswscale, version 7.5.100
+[3.989s] -- Checking for module 'libavdevice >= 56.4.100'
+[4.043s] --   Found libavdevice, version 60.3.100
+[4.211s] -- Checking for module 'libavformat'
+[4.256s] --   Found libavformat, version 60.16.100
+[4.382s] -- Checking for module 'libavcodec'
+[4.433s] --   Found libavcodec, version 60.31.102
+[4.586s] -- Checking for module 'libavutil'
+[4.647s] --   Found libavutil, version 58.29.100
+[4.777s] -- Searching for <gz-common5> component [events]
+[4.778s] -- Looking for gz-common5-events -- found version 5.8.0
+[4.779s] -- Searching for dependencies of gz-common5-events
+[4.780s] -- Looking for gz-math7 -- found version 7.5.2
+[4.783s] -- Searching for <gz-common5> component [graphics]
+[4.784s] -- Looking for gz-common5-graphics -- found version 5.8.0
+[4.785s] -- Searching for dependencies of gz-common5-graphics
+[4.786s] -- Looking for gz-math7 -- found version 7.5.2
+[4.795s] -- Searching for <gz-common5> component [io]
+[4.797s] -- Looking for gz-common5-io -- found version 5.8.0
+[4.797s] -- Searching for dependencies of gz-common5-io
+[4.800s] -- Searching for <gz-common5> component [profiler]
+[4.801s] -- Looking for gz-common5-profiler -- found version 5.8.0
+[4.803s] -- Searching for dependencies of gz-common5-profiler
+[4.806s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[4.807s] -- Searching for dependencies of gz-fuel_tools9
+[4.944s] -- Checking for module 'jsoncpp'
+[5.009s] --   Found jsoncpp, version 1.9.5
+[5.203s] -- Checking for module 'yaml-0.1'
+[5.251s] --   Found yaml-0.1, version 0.2.5
+[5.404s] -- Checking for module 'libzip'
+[5.468s] --   Found libzip, version 1.7.3
+[5.623s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.626s] -- Looking for gz-common5 -- found version 5.8.0
+[5.627s] -- Searching for dependencies of gz-common5
+[5.629s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.629s] -- Looking for dlfcn.h - found
+[5.629s] -- Looking for libdl - found
+[5.659s] -- Searching for <gz-common5> component [testing]
+[5.661s] -- Looking for gz-common5-testing -- found version 5.8.0
+[5.662s] -- Searching for dependencies of gz-common5-testing
+[5.667s] -- Looking for gz-math7 -- found version 7.5.2
+[5.668s] -- Looking for gz-msgs10 -- found version 10.3.2
+[5.674s] -- Looking for gz-gui8 -- found version 8.4.0
+[5.675s] -- Searching for dependencies of gz-gui8
+[5.782s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.784s] -- Looking for gz-math7 -- found version 7.5.2
+[5.785s] -- Looking for gz-common5 -- found version 5.8.0
+[5.787s] -- Looking for gz-plugin2 -- found version 2.0.4
+[5.788s] -- Looking for gz-transport13 -- found version 13.5.0
+[5.789s] -- Looking for gz-rendering8 -- found version 8.2.3
+[5.789s] -- Searching for dependencies of gz-rendering8
+[5.790s] -- Looking for gz-math7 -- found version 7.5.2
+[5.791s] -- Searching for dependencies of gz-math7
+[5.792s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.793s] -- Searching for <gz-math7> component [eigen3]
+[5.794s] -- Looking for gz-math7-eigen3 -- found version 7.5.2
+[5.794s] -- Searching for dependencies of gz-math7-eigen3
+[5.799s] -- Looking for gz-common5 -- found version 5.8.0
+[5.800s] -- Searching for dependencies of gz-common5
+[5.802s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.802s] -- Looking for dlfcn.h - found
+[5.802s] -- Looking for libdl - found
+[5.827s] -- Searching for <gz-common5> component [graphics]
+[5.827s] -- Searching for <gz-common5> component [events]
+[5.828s] -- Searching for <gz-common5> component [geospatial]
+[5.828s] -- Looking for gz-common5-geospatial -- found version 5.8.0
+[5.829s] -- Searching for dependencies of gz-common5-geospatial
+[5.831s] -- Looking for gz-math7 -- found version 7.5.2
+[5.832s] -- Looking for gz-common5 -- found version 5.8.0
+[5.834s] -- Looking for gz-plugin2 -- found version 2.0.4
+[5.835s] -- Searching for dependencies of gz-plugin2
+[5.836s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.837s] -- Searching for <gz-plugin2> component [all]
+[5.838s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[5.840s] -- Looking for gz-plugin2 -- found version 2.0.4
+[5.842s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.852s] -- Looking for gz-msgs10 -- found version 10.3.2
+[5.910s] -- Looking for gz-physics7 -- found version 7.6.0
+[5.911s] -- Searching for dependencies of gz-physics7
+[5.911s] -- Looking for gz-common5 -- found version 5.8.0
+[5.914s] -- Looking for gz-math7 -- found version 7.5.2
+[5.915s] -- Looking for gz-plugin2 -- found version 2.0.4
+[5.917s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.922s] -- Searching for <gz-physics7> component [heightmap]
+[5.924s] -- Looking for gz-physics7-heightmap -- found version 7.6.0
+[5.925s] -- Searching for dependencies of gz-physics7-heightmap
+[5.925s] -- Looking for gz-common5 -- found version 5.8.0
+[5.927s] -- Searching for <gz-physics7> component [mesh]
+[5.929s] -- Looking for gz-physics7-mesh -- found version 7.6.0
+[5.930s] -- Searching for dependencies of gz-physics7-mesh
+[5.932s] -- Looking for gz-common5 -- found version 5.8.0
+[5.934s] -- Searching for <gz-physics7> component [sdf]
+[5.935s] -- Looking for gz-physics7-sdf -- found version 7.6.0
+[5.936s] -- Searching for dependencies of gz-physics7-sdf
+[5.937s] -- Looking for sdformat14 -- found version 14.9.0
+[5.941s] -- Looking for gz-sensors8 -- found version 8.2.2
+[5.942s] -- Searching for dependencies of gz-sensors8
+[6.022s] -- Looking for gz-math7 -- found version 7.5.2
+[6.023s] -- Looking for gz-common5 -- found version 5.8.0
+[6.026s] -- Looking for gz-transport13 -- found version 13.5.0
+[6.027s] -- Looking for gz-rendering8 -- found version 8.2.3
+[6.029s] -- Looking for gz-msgs10 -- found version 10.3.2
+[6.030s] -- Looking for sdformat14 -- found version 14.9.0
+[6.032s] -- Searching for <gz-sensors8> component [air_pressure]
+[6.034s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[6.034s] -- Searching for dependencies of gz-sensors8-air_pressure
+[6.036s] -- Searching for <gz-sensors8> component [air_speed]
+[6.038s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[6.039s] -- Searching for dependencies of gz-sensors8-air_speed
+[6.041s] -- Searching for <gz-sensors8> component [altimeter]
+[6.043s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[6.044s] -- Searching for dependencies of gz-sensors8-altimeter
+[6.046s] -- Searching for <gz-sensors8> component [imu]
+[6.049s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[6.050s] -- Searching for dependencies of gz-sensors8-imu
+[6.054s] -- Searching for <gz-sensors8> component [force_torque]
+[6.055s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[6.057s] -- Searching for dependencies of gz-sensors8-force_torque
+[6.059s] -- Searching for <gz-sensors8> component [logical_camera]
+[6.061s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[6.061s] -- Searching for dependencies of gz-sensors8-logical_camera
+[6.064s] -- Searching for <gz-sensors8> component [magnetometer]
+[6.065s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[6.067s] -- Searching for dependencies of gz-sensors8-magnetometer
+[6.069s] -- Searching for <gz-sensors8> component [navsat]
+[6.069s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[6.070s] -- Searching for dependencies of gz-sensors8-navsat
+[6.072s] -- Searching for <gz-sensors8> component [dvl]
+[6.077s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[6.078s] -- Searching for dependencies of gz-sensors8-dvl
+[6.080s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.080s] -- Searching for dependencies of gz-sensors8
+[6.149s] -- Looking for gz-math7 -- found version 7.5.2
+[6.151s] -- Looking for gz-common5 -- found version 5.8.0
+[6.152s] -- Looking for gz-transport13 -- found version 13.5.0
+[6.154s] -- Looking for gz-rendering8 -- found version 8.2.3
+[6.156s] -- Looking for gz-msgs10 -- found version 10.3.2
+[6.159s] -- Looking for sdformat14 -- found version 14.9.0
+[6.160s] -- Searching for <gz-sensors8> component [rendering]
+[6.162s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[6.163s] -- Searching for dependencies of gz-sensors8-rendering
+[6.167s] -- Searching for <gz-sensors8> component [rendering]
+[6.167s] -- Searching for <gz-sensors8> component [lidar]
+[6.168s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[6.169s] -- Searching for dependencies of gz-sensors8-lidar
+[6.171s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.174s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[6.176s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[6.177s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[6.179s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.180s] -- Searching for <gz-sensors8> component [camera]
+[6.182s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[6.182s] -- Searching for dependencies of gz-sensors8-camera
+[6.184s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.188s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[6.189s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[6.190s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[6.191s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[6.193s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[6.195s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[6.196s] -- Searching for <gz-sensors8> component [depth_camera]
+[6.198s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[6.199s] -- Searching for dependencies of gz-sensors8-depth_camera
+[6.201s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.203s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[6.204s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[6.205s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[6.206s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.209s] -- Searching for <gz-sensors8> component [thermal_camera]
+[6.211s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[6.211s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[6.213s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.215s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[6.216s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[6.217s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[6.221s] -- Looking for gz-rendering8 -- found version 8.2.3
+[6.223s] -- Looking for gz-math7 -- found version 7.5.2
+[6.224s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.318s] -- Looking for gz-plugin2 -- found version 2.0.4
+[6.741s] -- Configuring done (6.6s)
+[6.795s] -- Generating done (0.0s)
+[6.817s] -- Build files have been written to: /home/supreyopretom/ros2_ws/build/wallclimbingrobot
+[7.006s] [100%] Built target fan_adhesion
+[7.053s] Invoked command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/supreyopretom/ros2_ws/build/wallclimbingrobot -- -j8 -l8
+[7.094s] Invoking command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/supreyopretom/ros2_ws/build/wallclimbingrobot
+[7.133s] -- Install configuration: ""
+[7.133s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf
+[7.134s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/Untitled document.docx
+[7.134s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/Wallclimbingrobot.urdf
+[7.134s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/wallclimbingrobot(1).urdf
+[7.135s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/wallclimbingrobot.csv
+[7.136s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes
+[7.136s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/base_link.STL
+[7.136s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_BR.STL
+[7.137s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_FR.STL
+[7.137s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_BL.STL
+[7.137s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_FL.STL
+[7.138s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch
+[7.138s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/display.launch
+[7.138s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/__pycache__
+[7.139s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/__pycache__/gazebo.launch.cpython-312.pyc
+[7.139s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/gazebo.launch
+[7.139s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/display.launch.py
+[7.140s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/gazebo.launch.py
+[7.140s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/config
+[7.141s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/config/joint_names_wallclimbingrobot.yaml
+[7.141s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/worlds
+[7.142s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/worlds/robot_world.sdf
+[7.142s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/lib/libfan_adhesion.so
+[7.142s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/lib/wallclimbingrobot/climb_demo.py
+[7.142s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/ament_index/resource_index/package_run_dependencies/wallclimbingrobot
+[7.143s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/ament_index/resource_index/parent_prefix_path/wallclimbingrobot
+[7.143s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/ament_prefix_path.sh
+[7.143s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/ament_prefix_path.dsv
+[7.143s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/path.sh
+[7.144s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/path.dsv
+[7.144s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.bash
+[7.144s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.sh
+[7.144s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.zsh
+[7.145s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.dsv
+[7.145s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.dsv
+[7.145s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/ament_index/resource_index/packages/wallclimbingrobot
+[7.145s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/cmake/wallclimbingrobotConfig.cmake
+[7.146s] -- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/cmake/wallclimbingrobotConfig-version.cmake
+[7.146s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.xml
+[7.150s] Invoked command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/supreyopretom/ros2_ws/build/wallclimbingrobot

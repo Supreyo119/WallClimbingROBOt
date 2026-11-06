@@ -1,0 +1,72 @@
+[0.038s] Invoking command in '/home/pretom/ros2_ws/build/wallclimbingrobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pretom/ros2_ws/src/wallclimbingrobot -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pretom/ros2_ws/install/wallclimbingrobot
+[0.463s] -- The C compiler identification is GNU 13.3.0
+[0.755s] -- The CXX compiler identification is GNU 13.3.0
+[0.818s] -- Detecting C compiler ABI info
+[1.040s] -- Detecting C compiler ABI info - done
+[1.061s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.066s] -- Detecting C compile features
+[1.068s] -- Detecting C compile features - done
+[1.100s] -- Detecting CXX compiler ABI info
+[1.388s] -- Detecting CXX compiler ABI info - done
+[1.412s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.412s] -- Detecting CXX compile features
+[1.412s] -- Detecting CXX compile features - done
+[1.478s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.980s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.486s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.769s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.848s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.049s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.474s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.506s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.034s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.098s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.170s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.823s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[7.025s] -- Configuring done (7.0s)
+[7.044s] -- Generating done (0.0s)
+[7.054s] [33mCMake Warning:
+[7.054s]   Manually-specified variables were not used by the project:
+[7.054s] 
+[7.054s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[7.054s] 
+[7.055s] [0m
+[7.059s] -- Build files have been written to: /home/pretom/ros2_ws/build/wallclimbingrobot
+[7.111s] Invoked command in '/home/pretom/ros2_ws/build/wallclimbingrobot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pretom/ros2_ws/src/wallclimbingrobot -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pretom/ros2_ws/install/wallclimbingrobot
+[7.111s] Invoking command in '/home/pretom/ros2_ws/build/wallclimbingrobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pretom/ros2_ws/build/wallclimbingrobot -- -j4 -l4
+[7.228s] Invoked command in '/home/pretom/ros2_ws/build/wallclimbingrobot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pretom/ros2_ws/build/wallclimbingrobot -- -j4 -l4
+[7.264s] Invoking command in '/home/pretom/ros2_ws/build/wallclimbingrobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pretom/ros2_ws/build/wallclimbingrobot
+[7.290s] -- Install configuration: ""
+[7.291s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf
+[7.292s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/Wallclimbingrobot.urdf
+[7.293s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/wallclimbingrobot.csv
+[7.294s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/wallclimbingrobot.urdf
+[7.295s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes
+[7.296s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_FL.STL
+[7.303s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_BL.STL
+[7.307s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/base_link.STL
+[7.310s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_FR.STL
+[7.312s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_BR.STL
+[7.316s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch
+[7.316s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/gazebo.launch
+[7.316s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/display.launch.py
+[7.316s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/display.launch
+[7.317s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/config
+[7.317s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/config/joint_names_wallclimbingrobot.yaml
+[7.318s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/ament_index/resource_index/package_run_dependencies/wallclimbingrobot
+[7.318s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/ament_index/resource_index/parent_prefix_path/wallclimbingrobot
+[7.318s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/ament_prefix_path.sh
+[7.318s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/ament_prefix_path.dsv
+[7.319s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/path.sh
+[7.319s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/path.dsv
+[7.319s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.bash
+[7.319s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.sh
+[7.319s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.zsh
+[7.320s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.dsv
+[7.320s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.dsv
+[7.320s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/ament_index/resource_index/packages/wallclimbingrobot
+[7.320s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/cmake/wallclimbingrobotConfig.cmake
+[7.321s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/cmake/wallclimbingrobotConfig-version.cmake
+[7.321s] -- Installing: /home/pretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.xml
+[7.324s] Invoked command in '/home/pretom/ros2_ws/build/wallclimbingrobot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pretom/ros2_ws/build/wallclimbingrobot

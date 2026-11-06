@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3c4ddb52a2d965256d2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "wallclimbingrobot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fan_adhesion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fan_adhesion-1cd476f9f5158fd19ae2.json",
+					"name" : "fan_adhesion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9be4d27830933c87f6dc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wallclimbingrobot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wallclimbingrobot_uninstall-3b8880742f7ac7303752.json",
+					"name" : "wallclimbingrobot_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/supreyopretom/ros2_ws/build/wallclimbingrobot",
+		"source" : "/home/supreyopretom/ros2_ws/ros2_ws/src/wallclimbingrobot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

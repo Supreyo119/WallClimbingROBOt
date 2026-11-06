@@ -1,0 +1,478 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (wallclimbingrobot) JobQueued: {'identifier': 'wallclimbingrobot', 'dependencies': OrderedDict()}
+[0.000265] (wallclimbingrobot) JobStarted: {'identifier': 'wallclimbingrobot'}
+[0.010818] (wallclimbingrobot) JobProgress: {'identifier': 'wallclimbingrobot', 'progress': 'cmake'}
+[0.011651] (wallclimbingrobot) JobProgress: {'identifier': 'wallclimbingrobot', 'progress': 'build'}
+[0.012348] (wallclimbingrobot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/supreyopretom/ros2_ws/build/wallclimbingrobot', '--', '-j8', '-l8'], 'cwd': '/home/supreyopretom/ros2_ws/build/wallclimbingrobot', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '270824c0-76d3-4740-9cb1-9f08df048636', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CODEX_CI': '1', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'supreyopretom', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/supreyopretom', 'OLDPWD': '/home/supreyopretom', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '2113', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2405', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5551', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/supreyopretom/map_ws/install', 'CODEX_PERMISSION_PROFILE': ':workspace', 'CODEX_TOOL_CALL_ID': 'exec-5ab85f4e-3636-4231-b8d2-1e110130ee2e', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'supreyopretom', 'JOURNAL_STREAM': '10:22549', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS': '1', 'USERNAME': 'supreyopretom', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/supreyopretom/.codex/packages/app-server-daemon/releases/0.166.0-x86_64-unknown-linux-musl/codex-path:/home/supreyopretom/.local/bin:/home/supreyopretom/.codex/tmp/arg0-linux/codex-arg0BYErG7:/home/supreyopretom/.codex/packages/app-server-daemon/releases/0.166.0-x86_64-unknown-linux-musl/codex-path:/home/supreyopretom/.codex/tmp/arg0-linux/codex-arg0NANdA1:/home/supreyopretom/.codex/packages/standalone/releases/0.166.0-x86_64-unknown-linux-musl/codex-path:/home/supreyopretom/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/supreyopretom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/supreyopretom-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/2362,unix/supreyopretom-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/2362', 'CODEX_VERSION': '0.166.0', 'CODEX_SESSION_ID': '01a1ad0f-0301-7872-b9db-bab1390e5459', 'INVOCATION_ID': '11a629b735524309a28d4555f00f31c2', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DJ85X3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:96238c6f-fd18-4455-beb1-b70fb60bd0c6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '01a1ad0f-0301-7872-b9db-bab1390e5459', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/supreyopretom/ros2_ws/build/wallclimbingrobot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099112] (-) TimerEvent: {}
+[0.131735] (wallclimbingrobot) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199259] (-) TimerEvent: {}
+[0.299493] (-) TimerEvent: {}
+[0.399662] (-) TimerEvent: {}
+[0.499856] (-) TimerEvent: {}
+[0.600100] (-) TimerEvent: {}
+[0.700360] (-) TimerEvent: {}
+[0.746459] (wallclimbingrobot) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.800513] (-) TimerEvent: {}
+[0.900773] (-) TimerEvent: {}
+[1.001027] (-) TimerEvent: {}
+[1.010620] (wallclimbingrobot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.076097] (wallclimbingrobot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.101166] (-) TimerEvent: {}
+[1.156694] (wallclimbingrobot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.182046] (wallclimbingrobot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201259] (-) TimerEvent: {}
+[1.301485] (-) TimerEvent: {}
+[1.395506] (wallclimbingrobot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.399733] (wallclimbingrobot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.401543] (-) TimerEvent: {}
+[1.501695] (-) TimerEvent: {}
+[1.558687] (wallclimbingrobot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.601806] (-) TimerEvent: {}
+[1.701996] (-) TimerEvent: {}
+[1.767729] (wallclimbingrobot) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)\n'}
+[1.802137] (-) TimerEvent: {}
+[1.902419] (-) TimerEvent: {}
+[2.002672] (-) TimerEvent: {}
+[2.102898] (-) TimerEvent: {}
+[2.203144] (-) TimerEvent: {}
+[2.303466] (-) TimerEvent: {}
+[2.403868] (-) TimerEvent: {}
+[2.411655] (wallclimbingrobot) StdoutLine: {'line': b'-- Found gz_sim_vendor: 0.0.10 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)\n'}
+[2.504039] (-) TimerEvent: {}
+[2.604345] (-) TimerEvent: {}
+[2.704648] (-) TimerEvent: {}
+[2.804853] (-) TimerEvent: {}
+[2.903743] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.11.0\n'}
+[2.904917] (-) TimerEvent: {}
+[2.999429] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[3.005042] (-) TimerEvent: {}
+[3.018499] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[3.019124] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[3.036391] (wallclimbingrobot) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.101206] (wallclimbingrobot) StdoutLine: {'line': b'--   Found tinyxml2, version 10.0.0\n'}
+[3.105139] (-) TimerEvent: {}
+[3.205359] (-) TimerEvent: {}
+[3.210413] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[3.211275] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[3.224996] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[3.225427] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[3.232053] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[3.232600] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[3.232938] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[3.241225] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.1\n'}
+[3.241809] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[3.248556] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[3.248981] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[3.249272] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[3.250589] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[3.255163] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.4\n'}
+[3.255640] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[3.256483] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[3.260685] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.4\n'}
+[3.261091] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[3.265762] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[3.266185] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[3.305474] (-) TimerEvent: {}
+[3.405722] (-) TimerEvent: {}
+[3.506029] (-) TimerEvent: {}
+[3.606332] (-) TimerEvent: {}
+[3.706621] (-) TimerEvent: {}
+[3.806896] (-) TimerEvent: {}
+[3.907130] (-) TimerEvent: {}
+[3.983863] (wallclimbingrobot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") \n'}
+[4.007243] (-) TimerEvent: {}
+[4.029199] (wallclimbingrobot) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[4.036945] (wallclimbingrobot) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[4.084722] (wallclimbingrobot) StdoutLine: {'line': b'--   Found libzmq, version 4.3.5\n'}
+[4.107409] (-) TimerEvent: {}
+[4.207695] (-) TimerEvent: {}
+[4.307948] (-) TimerEvent: {}
+[4.320622] (wallclimbingrobot) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[4.350486] (wallclimbingrobot) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[4.408088] (-) TimerEvent: {}
+[4.426722] (wallclimbingrobot) StdoutLine: {'line': b'--   Found uuid, version 2.39.3\n'}
+[4.508231] (-) TimerEvent: {}
+[4.579284] (wallclimbingrobot) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[4.580679] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[4.601629] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[4.602135] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[4.608331] (-) TimerEvent: {}
+[4.659587] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[4.660044] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[4.681896] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[4.685779] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.5.0\n'}
+[4.686144] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[4.687184] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[4.691118] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.5.0\n'}
+[4.691482] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[4.693196] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[4.708583] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[4.708898] (-) TimerEvent: {}
+[4.709096] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[4.709542] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[4.710834] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.713097] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.715249] (wallclimbingrobot) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[4.730898] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[4.735514] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.8.0\n'}
+[4.735941] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[4.746476] (wallclimbingrobot) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[4.809026] (-) TimerEvent: {}
+[4.819360] (wallclimbingrobot) StdoutLine: {'line': b'--   Found libswscale, version 7.5.100\n'}
+[4.907453] (wallclimbingrobot) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[4.909105] (-) TimerEvent: {}
+[4.954465] (wallclimbingrobot) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[4.999014] (wallclimbingrobot) StdoutLine: {'line': b'--   Found libavdevice, version 60.3.100\n'}
+[5.009249] (-) TimerEvent: {}
+[5.109580] (-) TimerEvent: {}
+[5.155673] (wallclimbingrobot) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[5.174578] (wallclimbingrobot) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[5.209704] (-) TimerEvent: {}
+[5.234469] (wallclimbingrobot) StdoutLine: {'line': b'--   Found libavformat, version 60.16.100\n'}
+[5.309835] (-) TimerEvent: {}
+[5.355147] (wallclimbingrobot) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[5.396691] (wallclimbingrobot) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[5.409974] (-) TimerEvent: {}
+[5.453487] (wallclimbingrobot) StdoutLine: {'line': b'--   Found libavcodec, version 60.31.102\n'}
+[5.510109] (-) TimerEvent: {}
+[5.595544] (wallclimbingrobot) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[5.610245] (-) TimerEvent: {}
+[5.613842] (wallclimbingrobot) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[5.670137] (wallclimbingrobot) StdoutLine: {'line': b'--   Found libavutil, version 58.29.100\n'}
+[5.710403] (-) TimerEvent: {}
+[5.786802] (wallclimbingrobot) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[5.791486] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[5.802744] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.8.0\n'}
+[5.803265] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[5.804355] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[5.806827] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[5.810478] (-) TimerEvent: {}
+[5.816029] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.8.0\n'}
+[5.816469] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[5.816789] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[5.873281] (wallclimbingrobot) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.3.0") \n'}
+[5.875624] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[5.886946] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.8.0\n'}
+[5.887554] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[5.889957] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[5.901984] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.8.0\n'}
+[5.902447] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[5.910614] (-) TimerEvent: {}
+[5.916849] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.1\n'}
+[5.917183] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[6.010737] (-) TimerEvent: {}
+[6.110996] (-) TimerEvent: {}
+[6.211288] (-) TimerEvent: {}
+[6.221169] (wallclimbingrobot) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  \n'}
+[6.294016] (wallclimbingrobot) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[6.311526] (-) TimerEvent: {}
+[6.342735] (wallclimbingrobot) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[6.411647] (-) TimerEvent: {}
+[6.439353] (wallclimbingrobot) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[6.511777] (-) TimerEvent: {}
+[6.589714] (wallclimbingrobot) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[6.611905] (-) TimerEvent: {}
+[6.662303] (wallclimbingrobot) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[6.712030] (-) TimerEvent: {}
+[6.773860] (wallclimbingrobot) StdoutLine: {'line': b'-- Found YAML: TRUE  \n'}
+[6.793298] (wallclimbingrobot) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[6.812180] (-) TimerEvent: {}
+[6.881434] (wallclimbingrobot) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[6.912322] (-) TimerEvent: {}
+[6.985276] (wallclimbingrobot) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[6.985771] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[6.986250] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[6.986513] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[6.986904] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[6.987143] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[6.987222] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[6.996763] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[7.012437] (-) TimerEvent: {}
+[7.030866] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.8.0\n'}
+[7.031342] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[7.034454] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[7.035007] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[7.040894] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.4.0\n'}
+[7.041509] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[7.098857] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[7.099315] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[7.099881] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[7.100464] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[7.101045] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[7.112565] (-) TimerEvent: {}
+[7.116506] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[7.117051] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[7.117553] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[7.117994] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[7.118342] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[7.118757] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[7.126852] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.2\n'}
+[7.127477] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[7.130182] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[7.130910] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[7.131509] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[7.131980] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[7.132216] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[7.147606] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[7.147862] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[7.147998] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[7.161855] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.8.0\n'}
+[7.162253] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[7.162690] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[7.163332] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[7.167035] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[7.167439] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[7.167850] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[7.168121] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[7.172656] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.4\n'}
+[7.173484] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[7.175439] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[7.212702] (-) TimerEvent: {}
+[7.262597] (wallclimbingrobot) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[7.266401] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[7.312853] (-) TimerEvent: {}
+[7.413135] (-) TimerEvent: {}
+[7.513422] (-) TimerEvent: {}
+[7.584258] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.6.0\n'}
+[7.584942] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[7.586331] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[7.587912] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[7.589557] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[7.591132] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[7.596656] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[7.605415] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.6.0\n'}
+[7.606068] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[7.607313] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[7.609144] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[7.613515] (-) TimerEvent: {}
+[7.614464] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.6.0\n'}
+[7.614816] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[7.615343] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[7.616291] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[7.619931] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.6.0\n'}
+[7.620250] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[7.620798] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[7.638944] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[7.639314] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[7.673950] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[7.674359] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[7.674933] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[7.675454] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[7.675936] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[7.676439] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[7.680952] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[7.684201] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.2\n'}
+[7.684538] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[7.685606] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[7.688516] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.2\n'}
+[7.688777] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[7.689848] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[7.692812] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.2\n'}
+[7.693186] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[7.695226] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[7.699295] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.2\n'}
+[7.699703] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[7.702023] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[7.705075] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.2\n'}
+[7.705408] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[7.706425] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[7.709266] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.2\n'}
+[7.709590] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[7.710626] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[7.713470] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.2\n'}
+[7.713694] (-) TimerEvent: {}
+[7.713852] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[7.714883] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[7.718832] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.2\n'}
+[7.719195] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[7.720093] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[7.723085] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.2\n'}
+[7.723378] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[7.723710] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[7.723937] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[7.755794] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[7.756159] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[7.756575] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[7.757001] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[7.757429] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[7.757854] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[7.758102] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[7.762501] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.2\n'}
+[7.762830] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[7.765357] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[7.765590] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[7.768265] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.2\n'}
+[7.768535] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[7.768912] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[7.770225] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[7.773239] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2\n'}
+[7.773506] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[7.773862] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[7.775119] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[7.778084] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.2\n'}
+[7.778350] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[7.778707] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[7.779925] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[7.782879] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2\n'}
+[7.783231] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[7.784323] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[7.787508] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2\n'}
+[7.787881] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[7.788901] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[7.791888] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.2\n'}
+[7.792189] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[7.792504] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[7.793734] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[7.797091] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2\n'}
+[7.797480] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[7.797753] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[7.799046] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[7.801911] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2\n'}
+[7.802211] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[7.802590] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[7.803867] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[7.806689] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2\n'}
+[7.806976] (wallclimbingrobot) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[7.808739] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[7.809129] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[7.809561] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[7.813774] (-) TimerEvent: {}
+[7.844069] (wallclimbingrobot) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[7.913892] (-) TimerEvent: {}
+[8.014107] (-) TimerEvent: {}
+[8.106225] (wallclimbingrobot) StdoutLine: {'line': b'-- Configuring done (8.0s)\n'}
+[8.114244] (-) TimerEvent: {}
+[8.214523] (-) TimerEvent: {}
+[8.314801] (-) TimerEvent: {}
+[8.390873] (wallclimbingrobot) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[8.405410] (wallclimbingrobot) StdoutLine: {'line': b'-- Build files have been written to: /home/supreyopretom/ros2_ws/build/wallclimbingrobot\n'}
+[8.414894] (-) TimerEvent: {}
+[8.495686] (wallclimbingrobot) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/fan_adhesion.dir/src/fan_adhesion.cpp.o\n'}
+[8.515058] (-) TimerEvent: {}
+[8.615330] (-) TimerEvent: {}
+[8.715600] (-) TimerEvent: {}
+[8.815871] (-) TimerEvent: {}
+[8.916279] (-) TimerEvent: {}
+[9.016686] (-) TimerEvent: {}
+[9.116931] (-) TimerEvent: {}
+[9.217145] (-) TimerEvent: {}
+[9.317423] (-) TimerEvent: {}
+[9.417672] (-) TimerEvent: {}
+[9.517919] (-) TimerEvent: {}
+[9.618168] (-) TimerEvent: {}
+[9.718434] (-) TimerEvent: {}
+[9.818678] (-) TimerEvent: {}
+[9.918905] (-) TimerEvent: {}
+[10.019186] (-) TimerEvent: {}
+[10.119551] (-) TimerEvent: {}
+[10.219933] (-) TimerEvent: {}
+[10.320199] (-) TimerEvent: {}
+[10.420464] (-) TimerEvent: {}
+[10.520703] (-) TimerEvent: {}
+[10.620962] (-) TimerEvent: {}
+[10.721240] (-) TimerEvent: {}
+[10.821601] (-) TimerEvent: {}
+[10.922048] (-) TimerEvent: {}
+[11.022351] (-) TimerEvent: {}
+[11.122631] (-) TimerEvent: {}
+[11.222921] (-) TimerEvent: {}
+[11.323217] (-) TimerEvent: {}
+[11.423431] (-) TimerEvent: {}
+[11.523690] (-) TimerEvent: {}
+[11.623939] (-) TimerEvent: {}
+[11.724151] (-) TimerEvent: {}
+[11.824345] (-) TimerEvent: {}
+[11.924563] (-) TimerEvent: {}
+[12.024774] (-) TimerEvent: {}
+[12.124992] (-) TimerEvent: {}
+[12.225199] (-) TimerEvent: {}
+[12.325416] (-) TimerEvent: {}
+[12.425625] (-) TimerEvent: {}
+[12.525875] (-) TimerEvent: {}
+[12.626094] (-) TimerEvent: {}
+[12.726342] (-) TimerEvent: {}
+[12.826598] (-) TimerEvent: {}
+[12.926847] (-) TimerEvent: {}
+[13.027069] (-) TimerEvent: {}
+[13.127552] (-) TimerEvent: {}
+[13.227772] (-) TimerEvent: {}
+[13.327996] (-) TimerEvent: {}
+[13.428235] (-) TimerEvent: {}
+[13.528474] (-) TimerEvent: {}
+[13.628728] (-) TimerEvent: {}
+[13.729003] (-) TimerEvent: {}
+[13.829233] (-) TimerEvent: {}
+[13.929463] (-) TimerEvent: {}
+[14.029718] (-) TimerEvent: {}
+[14.129936] (-) TimerEvent: {}
+[14.230193] (-) TimerEvent: {}
+[14.330531] (-) TimerEvent: {}
+[14.430771] (-) TimerEvent: {}
+[14.531000] (-) TimerEvent: {}
+[14.631267] (-) TimerEvent: {}
+[14.731572] (-) TimerEvent: {}
+[14.831815] (-) TimerEvent: {}
+[14.932193] (-) TimerEvent: {}
+[15.032596] (-) TimerEvent: {}
+[15.132832] (-) TimerEvent: {}
+[15.233068] (-) TimerEvent: {}
+[15.333288] (-) TimerEvent: {}
+[15.433534] (-) TimerEvent: {}
+[15.533755] (-) TimerEvent: {}
+[15.633963] (-) TimerEvent: {}
+[15.734176] (-) TimerEvent: {}
+[15.834395] (-) TimerEvent: {}
+[15.922703] (wallclimbingrobot) StdoutLine: {'line': b'[100%] Linking CXX shared library libfan_adhesion.so\n'}
+[15.934504] (-) TimerEvent: {}
+[16.034754] (-) TimerEvent: {}
+[16.135071] (-) TimerEvent: {}
+[16.235347] (-) TimerEvent: {}
+[16.335601] (-) TimerEvent: {}
+[16.435862] (-) TimerEvent: {}
+[16.438065] (wallclimbingrobot) StdoutLine: {'line': b'[100%] Built target fan_adhesion\n'}
+[16.455905] (wallclimbingrobot) CommandEnded: {'returncode': 0}
+[16.456709] (wallclimbingrobot) JobProgress: {'identifier': 'wallclimbingrobot', 'progress': 'install'}
+[16.474166] (wallclimbingrobot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/supreyopretom/ros2_ws/build/wallclimbingrobot'], 'cwd': '/home/supreyopretom/ros2_ws/build/wallclimbingrobot', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '270824c0-76d3-4740-9cb1-9f08df048636', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CODEX_CI': '1', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'supreyopretom', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/supreyopretom', 'OLDPWD': '/home/supreyopretom', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '2113', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2405', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5551', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/supreyopretom/map_ws/install', 'CODEX_PERMISSION_PROFILE': ':workspace', 'CODEX_TOOL_CALL_ID': 'exec-5ab85f4e-3636-4231-b8d2-1e110130ee2e', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'supreyopretom', 'JOURNAL_STREAM': '10:22549', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS': '1', 'USERNAME': 'supreyopretom', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/supreyopretom/.codex/packages/app-server-daemon/releases/0.166.0-x86_64-unknown-linux-musl/codex-path:/home/supreyopretom/.local/bin:/home/supreyopretom/.codex/tmp/arg0-linux/codex-arg0BYErG7:/home/supreyopretom/.codex/packages/app-server-daemon/releases/0.166.0-x86_64-unknown-linux-musl/codex-path:/home/supreyopretom/.codex/tmp/arg0-linux/codex-arg0NANdA1:/home/supreyopretom/.codex/packages/standalone/releases/0.166.0-x86_64-unknown-linux-musl/codex-path:/home/supreyopretom/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/supreyopretom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/supreyopretom-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/2362,unix/supreyopretom-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/2362', 'CODEX_VERSION': '0.166.0', 'CODEX_SESSION_ID': '01a1ad0f-0301-7872-b9db-bab1390e5459', 'INVOCATION_ID': '11a629b735524309a28d4555f00f31c2', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DJ85X3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:96238c6f-fd18-4455-beb1-b70fb60bd0c6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '01a1ad0f-0301-7872-b9db-bab1390e5459', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/supreyopretom/ros2_ws/build/wallclimbingrobot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[16.489203] (wallclimbingrobot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.489567] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf\n'}
+[16.489792] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/Untitled document.docx\n'}
+[16.490003] (wallclimbingrobot) StdoutLine: {'line': b'-- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/Wallclimbingrobot.urdf\n'}
+[16.490494] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/wallclimbingrobot(1).urdf\n'}
+[16.490696] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/wallclimbingrobot.csv\n'}
+[16.490869] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes\n'}
+[16.491039] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/base_link.STL\n'}
+[16.491221] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_BR.STL\n'}
+[16.491431] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_FR.STL\n'}
+[16.491789] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_BL.STL\n'}
+[16.492429] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_FL.STL\n'}
+[16.492703] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch\n'}
+[16.492886] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/display.launch\n'}
+[16.493064] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/gazebo.launch\n'}
+[16.493233] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/display.launch.py\n'}
+[16.493429] (wallclimbingrobot) StdoutLine: {'line': b'-- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/gazebo.launch.py\n'}
+[16.493615] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/config\n'}
+[16.493785] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/config/joint_names_wallclimbingrobot.yaml\n'}
+[16.493975] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/worlds\n'}
+[16.494145] (wallclimbingrobot) StdoutLine: {'line': b'-- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/worlds/robot_world.sdf\n'}
+[16.494311] (wallclimbingrobot) StdoutLine: {'line': b'-- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/lib/libfan_adhesion.so\n'}
+[16.494632] (wallclimbingrobot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/supreyopretom/ros2_ws/install/wallclimbingrobot/lib/libfan_adhesion.so" to ""\n'}
+[16.494823] (wallclimbingrobot) StdoutLine: {'line': b'-- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/ament_index/resource_index/package_run_dependencies/wallclimbingrobot\n'}
+[16.495006] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/ament_index/resource_index/parent_prefix_path/wallclimbingrobot\n'}
+[16.495185] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/ament_prefix_path.sh\n'}
+[16.495384] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/ament_prefix_path.dsv\n'}
+[16.495737] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/path.sh\n'}
+[16.495923] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/path.dsv\n'}
+[16.496104] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.bash\n'}
+[16.496282] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.sh\n'}
+[16.496566] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.zsh\n'}
+[16.497207] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.dsv\n'}
+[16.497705] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.dsv\n'}
+[16.497915] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/ament_index/resource_index/packages/wallclimbingrobot\n'}
+[16.498097] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/cmake/wallclimbingrobotConfig.cmake\n'}
+[16.498277] (wallclimbingrobot) StdoutLine: {'line': b'-- Up-to-date: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/cmake/wallclimbingrobotConfig-version.cmake\n'}
+[16.498495] (wallclimbingrobot) StdoutLine: {'line': b'-- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.xml\n'}
+[16.498688] (wallclimbingrobot) CommandEnded: {'returncode': 0}
+[16.535990] (-) TimerEvent: {}
+[16.547539] (wallclimbingrobot) JobEnded: {'identifier': 'wallclimbingrobot', 'rc': 0}
+[16.548606] (-) EventReactorShutdown: {}

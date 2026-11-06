@@ -1,0 +1,70 @@
+[0.014s] Invoking command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/supreyopretom/ros2_ws/ros2_ws/src/wallclimbingrobot -DCMAKE_INSTALL_PREFIX=/home/supreyopretom/ros2_ws/install/wallclimbingrobot
+[0.851s] -- The C compiler identification is GNU 13.3.0
+[1.533s] -- The CXX compiler identification is GNU 13.3.0
+[1.601s] -- Detecting C compiler ABI info
+[1.762s] -- Detecting C compiler ABI info - done
+[1.777s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.778s] -- Detecting C compile features
+[1.788s] -- Detecting C compile features - done
+[1.812s] -- Detecting CXX compiler ABI info
+[2.011s] -- Detecting CXX compiler ABI info - done
+[2.045s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.046s] -- Detecting CXX compile features
+[2.048s] -- Detecting CXX compile features - done
+[2.323s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.655s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.158s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.439s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.487s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.675s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.032s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.064s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.695s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.800s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.837s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.148s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[6.274s] -- Configuring done (6.2s)
+[6.281s] -- Generating done (0.0s)
+[6.285s] -- Build files have been written to: /home/supreyopretom/ros2_ws/build/wallclimbingrobot
+[6.299s] Invoked command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/supreyopretom/ros2_ws/ros2_ws/src/wallclimbingrobot -DCMAKE_INSTALL_PREFIX=/home/supreyopretom/ros2_ws/install/wallclimbingrobot
+[6.303s] Invoking command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/supreyopretom/ros2_ws/build/wallclimbingrobot -- -j8 -l8
+[6.390s] Invoked command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/supreyopretom/ros2_ws/build/wallclimbingrobot -- -j8 -l8
+[6.414s] Invoking command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/supreyopretom/ros2_ws/build/wallclimbingrobot
+[6.431s] -- Install configuration: ""
+[6.431s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf
+[6.432s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/Untitled document.docx
+[6.432s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/Wallclimbingrobot.urdf
+[6.432s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/wallclimbingrobot(1).urdf
+[6.432s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/urdf/wallclimbingrobot.csv
+[6.432s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes
+[6.432s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/base_link.STL
+[6.549s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_BR.STL
+[6.606s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_FR.STL
+[6.612s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_BL.STL
+[6.697s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/meshes/link_FL.STL
+[6.811s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch
+[6.811s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/display.launch
+[6.812s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/gazebo.launch
+[6.812s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/display.launch.py
+[6.812s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/launch/gazebo.launch.py
+[6.813s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/config
+[6.813s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/config/joint_names_wallclimbingrobot.yaml
+[6.815s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/worlds
+[6.816s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/worlds/robot_world.sdf
+[6.816s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/ament_index/resource_index/package_run_dependencies/wallclimbingrobot
+[6.817s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/ament_index/resource_index/parent_prefix_path/wallclimbingrobot
+[6.817s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/ament_prefix_path.sh
+[6.818s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/ament_prefix_path.dsv
+[6.818s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/path.sh
+[6.819s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/environment/path.dsv
+[6.819s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.bash
+[6.819s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.sh
+[6.820s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.zsh
+[6.820s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/local_setup.dsv
+[6.821s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.dsv
+[6.821s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/ament_index/resource_index/packages/wallclimbingrobot
+[6.822s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/cmake/wallclimbingrobotConfig.cmake
+[6.822s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/cmake/wallclimbingrobotConfig-version.cmake
+[6.823s] -- Installing: /home/supreyopretom/ros2_ws/install/wallclimbingrobot/share/wallclimbingrobot/package.xml
+[6.828s] Invoked command in '/home/supreyopretom/ros2_ws/build/wallclimbingrobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/supreyopretom/ros2_ws/build/wallclimbingrobot

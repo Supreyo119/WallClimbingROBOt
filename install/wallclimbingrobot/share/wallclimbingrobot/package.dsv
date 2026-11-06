@@ -1,0 +1,11 @@
+source;share/wallclimbingrobot/hook/cmake_prefix_path.ps1
+source;share/wallclimbingrobot/hook/cmake_prefix_path.dsv
+source;share/wallclimbingrobot/hook/cmake_prefix_path.sh
+source;share/wallclimbingrobot/hook/ld_library_path_lib.ps1
+source;share/wallclimbingrobot/hook/ld_library_path_lib.dsv
+source;share/wallclimbingrobot/hook/ld_library_path_lib.sh
+source;share/wallclimbingrobot/local_setup.bash
+source;share/wallclimbingrobot/local_setup.dsv
+source;share/wallclimbingrobot/local_setup.ps1
+source;share/wallclimbingrobot/local_setup.sh
+source;share/wallclimbingrobot/local_setup.zsh
